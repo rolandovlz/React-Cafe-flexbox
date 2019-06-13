@@ -9,7 +9,7 @@ class EventMembersList extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{display: 'flex', 'flex-flow': 'row wrap', justifyContent: 'space-around'}}>
         {this._renderAvatarsList()}
       </div>
     );

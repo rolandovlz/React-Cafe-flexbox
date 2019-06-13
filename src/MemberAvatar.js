@@ -17,7 +17,10 @@ const styles = {
     borderRadius: 50,
     height: 100,
     width: 100,
-    backgroundColor: '#000'
+    backgroundColor: '#000',
+    flex: '0 1 19%',
+    margin: '2%',
+    maxWidth: 100
   }
 }
 
