@@ -31,7 +31,7 @@ function App() {
             <SubHeaderText text='Members (15)' />
             <ClickableText text='See all' />
           </div>
-          <div style={styles.eventList} >
+          <div>
             <EventMembersList />
           </div>
         </div>
@@ -73,10 +73,6 @@ const styles = {
     justifyContent: 'space-between',
     margin: '2%'
   },
-  eventList: {
-    display: 'flex',
-    'flex-wrap': 'wrap',
-  }
 }
 
 export default App;
